@@ -14,10 +14,15 @@ body {
   margin: 0;
   font-family: "Kalam", cursive;
   color: #333333;
+  background: url(minion-wallpaper.png);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 nav {
-  background-color: var(--primary);
+  background-color: rgba(250, 250, 69, 0.5);
   text-align: center;
 }
 
@@ -38,7 +43,7 @@ textarea {
 }
 
 button {
-  background-color: var(--primary);
+  background-color: rgba(250, 250, 69, 0.9);
   border: none;
   border-radius: 1rem;
   margin: 1rem 0rem;
@@ -65,7 +70,7 @@ footer {
   bottom: 0;
   width: 100%;
   padding: 1rem;
-  background-color: var(--primary);
+  background-color: rgba(250, 250, 69, 0.5);
   text-align: center;
 }
 
